@@ -2,8 +2,6 @@ package com.xwdz.simple.hook;
 
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.os.Handler;
-import android.os.Looper;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -16,8 +14,6 @@ import com.xwdz.simple.R;
  * @since 2018/5/9
  */
 public class WelcomeActivity extends AppCompatActivity {
-
-    private Handler mHandler = new Handler(Looper.getMainLooper());
 
     private TextView mTextView;
 
