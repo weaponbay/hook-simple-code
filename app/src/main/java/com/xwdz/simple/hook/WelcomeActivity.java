@@ -17,10 +17,10 @@ public class WelcomeActivity extends AppCompatActivity {
 
     private TextView mTextView;
 
-    private CountDownTimer mCountDownTimer = new CountDownTimer(10000, 1000) {
+    private CountDownTimer mCountDownTimer = new CountDownTimer(12000, 1000) {
         @Override
         public void onTick(long millisUntilFinished) {
-            mTextView.setText("Hook成功，欢迎来到酸菜个人站点 huangxingwei.cn 10秒后返回MainActivity = " + millisUntilFinished / 1000);
+            mTextView.setText("Hook成功，欢迎来到酸菜个人站点 huangxingwei.cn 12秒后返回MainActivity = " + millisUntilFinished / 1000);
         }
 
         @Override

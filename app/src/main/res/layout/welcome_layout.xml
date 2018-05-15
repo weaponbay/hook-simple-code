@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_dark"
+    android:background="@mipmap/ic_bg"
     android:orientation="vertical">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_gravity="center_vertical"
         android:gravity="center"
         android:text="欢迎来到酸菜个人站点 huangxingwei.cn"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textSize="22sp"/>
 
 
